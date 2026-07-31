@@ -1,22 +1,8 @@
 from turtle import *
-import turtle
 
-# Background color
-turtle.bgcolor("black")
-
-# Pen and fill colors
-color("orange", "yellow")
-
-begin_fill()
-
-while True:
-    forward(200)
-    left(170)
-
-    # Stop when turtle returns near the starting point
-    if distance(0, 0) < 1:
-        break
-
-end_fill()
+for i in range(4):
+    forward(100)
+    circle(50)
+    left(90)
 
 done()
