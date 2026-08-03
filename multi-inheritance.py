@@ -4,7 +4,7 @@ class base:
         self.name = name
         self.roll = roll
         self.role = role
-
+    
 
 # Intermediate class
 class intermidiate(base):
